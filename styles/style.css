@@ -1,0 +1,51 @@
+* {
+  text-decoration: none;
+  text-transform: capitalize;
+  transition: 0.5s;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin-top: 55px;
+}
+
+.resimslider {
+  height: 600px;
+}
+
+.ayrac {
+  border: none;
+  border-top: 3px solid #343a40;
+  max-width: 250px;
+  margin: 25px auto;
+}
+
+.yaprak {
+  color: #343a40;
+  position: relative;
+  top: -75px;
+  font-size: 70px;
+  border: 10px solid white;
+  background-color: white;
+}
+
+.teamcard:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+.col {
+  flex-wrap: wrap;
+  flex: 3;
+}
+
+.sl {
+  height: 200px;
+  width: 400px;
+}
+
+figure:hover {
+  opacity: 0.7;
+}
